@@ -1,0 +1,65 @@
+[
+  {
+    "id": "1",
+    "name": "Limestone",
+    "price": "Call for the Price",
+    "description": "Limestone is a popular rock used for crushing in stone crushers for construction and road-building projects.",
+    "img": "https://iili.io/HXHyYF9.jpg"
+  },
+  {
+    "id": "2",
+    "name": "Crushed Stone 3/4",
+    "price": "Call for the Price",
+    "description": "Its's popular size for various landscaping and construction applications, such as driveways and drainage systems.",
+    "img": "https://iili.io/HXHyGZQ.jpg"
+  },
+  {
+    "id": "3",
+    "name": "Crushed Stone 1/2",
+    "price": "Call for the Price",
+    "description": "Half-inch crushed stone is a popular size of stone used for construction, landscaping, and drainage projects..",
+    "img": "https://iili.io/HXHyaae.jpg"
+  },
+  {
+    "id": "4",
+    "name": "Crushed Stone 5/10",
+    "price": "Call for the Price",
+    "description": "Chip crushed stone is a blend of different sizes of crushed stone used for landscaping and decorative purposes.",
+    "img": "https://iili.io/HXHy567.jpg"
+  },
+  {
+    "id": "5",
+    "name": "Crushed Stone Dust",
+    "price": "Call for the Price",
+    "description": "Chip crushed stone dust is a fine material that is often used for leveling and paving applications.",
+    "img": "https://iili.io/HXHy1uj.jpg"
+  },
+  {
+    "id": "6",
+    "name": "Crushed Stone 60mm",
+    "price": "Call for the Price",
+    "description": "Our company provides 2.36 inch stones for construction and landscaping projects, including under train sleepers.",
+    "img": "https://iili.io/HXHylyb.jpg"
+  },
+  {
+    "id": "7",
+    "name": "River Sand",
+    "price": "Call for the Price",
+    "description": "Sand is a crucial material used in construction for various purposes such as concrete, mortar, and filling.",
+    "img": "https://iili.io/HXHyc8u.jpg"
+  },
+  {
+    "id": "8",
+    "name": "Heavy Hire",
+    "price": "Call for the Price",
+    "description": "Our company giving rents of heavy earthmoving machinery for individuals & construction.",
+    "img": "https://iili.io/HXHyRGS.jpg"
+  },
+  {
+    "id": "9",
+    "name": "Transportation",
+    "price": "Call for the Price",
+    "description": "Our company giving rents of transportation for individuals & construction.",
+    "img": "https://iili.io/HXHyEwx.jpg"
+  }
+]

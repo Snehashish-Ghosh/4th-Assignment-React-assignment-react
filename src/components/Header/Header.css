@@ -1,0 +1,41 @@
+.header-area .navbar-nav a {
+  color: black;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 22.5px;
+  margin-left: 25px;
+  position: relative;
+}
+.header-area .navbar-nav a {
+  color: black;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22.5px;
+  margin-left: 25px;
+  position: relative;
+}
+.header-area .navbar-nav a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  border-radius: 4px;
+  background-color: #0063d0;
+  bottom: 0;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+.header-area .navbar-nav a:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+.header-area .navbar-nav a:last-child {
+  background: #003ea3;
+  color: #fff;
+}
+.header-area .navbar-nav a:last-child::before {
+  width: 0;
+  height: 0;
+}

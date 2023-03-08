@@ -1,0 +1,46 @@
+.footer-area {
+  background-image: url(../../images/footerbg.png);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 10px;
+}
+.footer-content {
+  margin-top: 60px;
+}
+.company-area p {
+  font-size: 14px;
+  padding: 0 10px;
+}
+.footer-heading h1 {
+  font-size: 22px;
+  position: relative;
+  margin-bottom: 25px;
+}
+.footer-heading h1::after {
+  position: absolute;
+  background-color: #001a4d;
+  content: "";
+  height: 2px;
+  width: 158px;
+  bottom: 0;
+  top: 119%;
+  left: 33%;
+}
+.footer-details h2 {
+  font-size: 14px;
+}
+.footer-details h2 span {
+  font-size: 16px;
+}
+.footer-details h3 {
+  font-size: 14px;
+}
+.copyright-area {
+  margin-top: 20px;
+  background-color: #001a4d;
+  padding: 2px;
+}
+.copyright-area p {
+  margin-top: 10px;
+}

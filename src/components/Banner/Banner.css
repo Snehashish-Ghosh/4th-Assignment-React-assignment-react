@@ -1,0 +1,19 @@
+.banner-area .carousel-caption {
+  color: #fff;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 50px;
+}
+.banner-area .carousel-caption h2 {
+  color: #fff;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 100px;
+}
+.banner-area .carousel-caption h2 {
+  font-size: 42px;
+  margin-bottom: 8px;
+}
+.banner-area .carousel-caption p {
+  font-size: 20px;
+}

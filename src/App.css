@@ -1,0 +1,10 @@
+.theme-button {
+  background: #003ea3 !important;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px 20px;
+  color: #fff;
+  border: none;
+  border-radius: 11px !important;
+  min-width: 120px !important;
+}

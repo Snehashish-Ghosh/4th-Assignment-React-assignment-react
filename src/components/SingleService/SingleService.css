@@ -1,0 +1,18 @@
+.single-service {
+  padding-bottom: 30px;
+  padding-top: 100px;
+  line-height: 1.2;
+}
+.single-service h3 {
+  font-size: 22px;
+  font-weight: 500;
+  margin: 10px 15px 0 10px;
+}
+.single-service h5 {
+  font-size: 16px;
+  margin: 10px 15px 0 10px;
+}
+.single-service p {
+  margin: 10px 15px 16px 10px;
+  font-size: 15px;
+}
