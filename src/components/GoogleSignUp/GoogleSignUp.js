@@ -10,7 +10,7 @@ const GoogleSignUp = () => {
   if (error) {
     return (
       <div>
-        <p>Error: {error.message}</p>
+        <p>Please Verify Your Email {"error".message}</p>
       </div>
     );
   }

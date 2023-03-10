@@ -3,3 +3,10 @@
   color: #003ea3;
   margin-bottom: 0;
 }
+@media (max-width: 991px) {
+  .section-area h1 {
+    font-size: 25px;
+    color: #003ea3;
+    margin-bottom: 0;
+  }
+}

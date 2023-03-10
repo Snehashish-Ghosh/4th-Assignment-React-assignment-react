@@ -1,14 +1,9 @@
-.header-area .navbar-nav a {
-  color: black;
-  font-weight: 800;
-  font-size: 14px;
-  line-height: 22.5px;
-  margin-left: 25px;
-  position: relative;
+.header-area {
+  font-family: "Open Sans", sans-serif;
 }
 .header-area .navbar-nav a {
   color: black;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 14px;
   line-height: 22.5px;
   margin-left: 25px;
@@ -38,4 +33,26 @@
 .header-area .navbar-nav a:last-child::before {
   width: 0;
   height: 0;
+}
+/* Breakpoint Css */
+@media (max-width: 991px) {
+  .header-area .navbar-nav a {
+    text-align: center;
+    margin-left: 0;
+  }
+  .header-area .navbar-nav a:first-child {
+    margin-top: 10px;
+  }
+  .header-area .navbar-nav a::before {
+    width: 10%;
+    bottom: 0;
+    left: 45%;
+    right: 10%;
+    transform-origin: left;
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+  }
+  .header-area .navbar-nav a:last-child {
+    margin-top: 10px;
+  }
 }

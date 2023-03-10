@@ -8,3 +8,14 @@
   border-radius: 11px !important;
   min-width: 120px !important;
 }
+.theme-button:hover {
+  background: #0958d6 !important;
+}
+
+/* Breakpoint Css */
+@media (max-width: 991px) {
+  .theme-button {
+    font-size: 12px;
+    padding: 8px 16px;
+  }
+}

@@ -1,3 +1,6 @@
+.banner-area {
+  font-family: "Open Sans", sans-serif;
+}
 .banner-area .carousel-caption {
   color: #fff;
   font-weight: 500;
@@ -6,7 +9,7 @@
 }
 .banner-area .carousel-caption h2 {
   color: #fff;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 1.2;
   margin-bottom: 100px;
 }
@@ -16,4 +19,39 @@
 }
 .banner-area .carousel-caption p {
   font-size: 20px;
+}
+/* Breakpoint Css */
+@media (max-width: 991px) {
+  .banner-area .carousel-caption {
+    font-weight: 400;
+    margin-bottom: 6px;
+  }
+  .banner-area .carousel-caption h2 {
+    font-size: 20px;
+  }
+  .banner-area .carousel-caption h2 {
+    font-size: 28px;
+    margin-bottom: 8px;
+  }
+  .banner-area .carousel-caption p {
+    font-size: 15px;
+  }
+}
+@media (max-width: 426px) {
+  .banner-area .carousel-caption {
+    margin-bottom: -24px;
+  }
+  .banner-area .carousel-caption h2 {
+    font-size: 10px;
+  }
+  .banner-area .carousel-caption h2 {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  .banner-area .carousel-caption p {
+    font-size: 12px;
+  }
+  .theme-button {
+    display: none;
+  }
 }

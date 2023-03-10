@@ -2,6 +2,10 @@
   padding: 40px 20px;
   background-color: transparent;
 }
+.contact-text h1 {
+  font-size: 20px;
+  font-weight: 600;
+}
 .contact-form ::placeholder {
   color: black;
 }
@@ -18,4 +22,12 @@
 }
 .contact-form button {
   margin-top: 30px;
+}
+@media (max-width: 991px) {
+  .contact-text h1 {
+    font-size: 16px;
+  }
+  .contact-form button {
+    margin-top: 15px;
+  }
 }

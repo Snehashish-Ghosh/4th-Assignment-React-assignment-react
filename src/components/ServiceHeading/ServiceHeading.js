@@ -19,7 +19,7 @@ const ServiceHeading = () => {
             </div>
           </Col>
           <Col lg={6}>
-            <div className="ServiceHeading-text ms-5">
+            <div className="ServiceHeading-text ms-lg-5">
               <h1>Complete Construction Solutions</h1>
               <p>
                 Lucky Enterprise has been a trusted provider of construction

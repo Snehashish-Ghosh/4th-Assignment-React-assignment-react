@@ -4,4 +4,12 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  font-family: "Open Sans", sans-serif;
+}
+
+@media (max-width: 991px) {
+  .contact-area {
+    padding: 50px 0;
+    text-align: center;
+  }
 }

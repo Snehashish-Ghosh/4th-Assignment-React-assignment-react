@@ -3,5 +3,12 @@
   position: relative;
 }
 .about-image {
-  border: 1px solid #003ea3;
+  box-shadow: 0 0 10px #0063d0;
+  border-radius: 10px;
+}
+/* Breakpoint Css */
+@media (max-width: 991px) {
+  .about-image {
+    margin-top: 50px;
+  }
 }

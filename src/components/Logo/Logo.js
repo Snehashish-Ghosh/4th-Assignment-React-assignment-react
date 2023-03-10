@@ -1,8 +1,13 @@
 import React from "react";
-import LogoImg from "../../images/logo.png2";
+import "./Logo.css";
+import LogoImg from "../../images/logo.PNG";
 
 const Logo = () => {
-  return <img src={LogoImg} alt="#" />;
+  return (
+    <div className="logo-area">
+      <img src={LogoImg} alt="#" />
+    </div>
+  );
 };
 
 export default Logo;

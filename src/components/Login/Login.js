@@ -20,7 +20,8 @@ const Login = () => {
     useSignInWithEmailAndPassword(auth);
 
   if (error) {
-    messageDiv.innerHTML = error;
+    messageDiv.innerHTML =
+      "Please make sure all fields are filled in correctly";
   }
   if (loading) {
     messageDiv.innerHTML = "Loading...";

@@ -14,6 +14,12 @@ const AboutText = () => {
           committed to maintaining our reputation for reliability and
           high-quality services.
         </p>
+        <img
+          src="https://www.mdinfotechbd.com/images/fing.gif"
+          alt="animated gif"
+        />
+        <h6>Hira Lal Ghosh</h6>
+        <h5>Founder & Chief Executive officer</h5>
       </div>
     </Col>
   );

@@ -3,8 +3,14 @@ import Container from "react-bootstrap/esm/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "./Footer.css";
-import { Link } from "react-router-dom";
-import Logo from "../Logo/Logo";
+import Logo from "../../images/footer-logo.PNG";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebook,
+  faWhatsapp,
+  faLinkedin,
+} from "@fortawesome/free-brands-svg-icons";
+import { faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => {
   return (
@@ -13,7 +19,7 @@ const Footer = () => {
         <div className="footer-content">
           <Row>
             <Col lg={4} className="company-area">
-              <Logo />
+              <img src={Logo} alt="#" />
               <p>
                 Contact us for your stone crusher needs. Our team is ready to
                 assist you with any questions and provide a customized quote.
@@ -37,14 +43,31 @@ const Footer = () => {
                   <span>Factory Two :</span> M/s Lucky Stone Crusher, Mamar
                   Dukan, Jaflong, Gowainghat, Sylhet, Bangladesh
                 </h2>
-                <h3>+8801722894411</h3>
-                <Link />
-                {"msluckyenterprise@gmail.com"}
               </div>
             </Col>
             <Col lg={4} className="footer-link">
               <div className="footer-heading text-center">
-                <h1>Follow Us</h1>
+                <h1>Reach us</h1>
+              </div>
+              <div className="d-flex customize-contact">
+                <FontAwesomeIcon className="icon-area" icon={faEnvelope} />
+                <a href="mailto:Msluckyenterprise@gmail.com">
+                  {" "}
+                  Msluckyenterprise@gmail.com
+                </a>
+                <FontAwesomeIcon className="icon-area ms-3" icon={faPhone} />
+                <a href="tel:+8801722894411">+8801713801044</a>
+              </div>
+              <div className="social-link">
+                <a href="https://www.facebook.com/Shuvo.ielu/" target="blank">
+                  <FontAwesomeIcon className="icon-area" icon={faFacebook} />
+                </a>
+                <a href="https://wa.me/+8801713801044" target="blank">
+                  <FontAwesomeIcon className="icon-area" icon={faWhatsapp} />
+                </a>
+                <a href="https://www.linkedin.com" target="blank">
+                  <FontAwesomeIcon className="icon-area" icon={faLinkedin} />
+                </a>
               </div>
             </Col>
           </Row>

@@ -15,8 +15,8 @@ const Header = () => {
     signOut(auth);
   };
   return (
-    <header className="header-area">
-      <Navbar bg="light" expand="lg" className="py-lg-1 fixed-top">
+    <header>
+      <Navbar expand="lg" className="header-area py-lg-1 fixed-top bg-light">
         <Container>
           <Navbar.Brand as={Link} to="/">
             <Logo />
