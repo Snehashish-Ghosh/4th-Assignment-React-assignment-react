@@ -11,6 +11,7 @@ import { useState } from "react";
 import auth from "../../firebase.init";
 import { NavLink } from "react-router-dom";
 import GoogleSignUp from "../GoogleSignUp/GoogleSignUp";
+import userPng from "../../images/user.png";
 
 const Register = () => {
   const [email, setEmail] = useState("");
@@ -36,6 +37,7 @@ const Register = () => {
       <Container>
         <SectionHeading heading="Create an Account" />
         <div className="reg-area py-5">
+          <img src={userPng} alt="#" />
           <Row>
             <Col lg={{ span: 6, offset: 3 }}>
               <Form.Group className="mb-3" controlId="formBasicEmail">

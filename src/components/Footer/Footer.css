@@ -70,7 +70,11 @@
 }
 .copyright-area {
   background-color: #001a4d;
-  padding: 2px;
+  padding: 4px;
+}
+.copyright-area p {
+  margin-bottom: 0;
+  font-size: 13px;
 }
 /* Breakpoint Css */
 @media (max-width: 991px) {

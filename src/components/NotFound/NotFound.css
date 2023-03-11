@@ -1,6 +1,6 @@
 .not-found-area {
-  padding: 106px 0;
-  min-height: calc(100vh -75px -377px);
+  padding: 136px 0;
+  min-height: calc(100vh -75px -243px);
 }
 .not-found-text h2 {
   font-size: 85px;

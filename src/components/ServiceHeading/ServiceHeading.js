@@ -6,6 +6,8 @@ import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import { NavLink } from "react-router-dom";
 import ServiceHeadingImg from "../../images/service-heading.jpg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAnglesRight } from "@fortawesome/free-solid-svg-icons";
 
 const ServiceHeading = () => {
   return (
@@ -36,7 +38,10 @@ const ServiceHeading = () => {
               </p>
             </div>
             <NavLink to="/service" className="nav-link">
-              <button className="theme-button mt-1 ms-5">Explore All</button>
+              <button className="theme-button mt-1 ms-5">
+                Explore All
+                <FontAwesomeIcon className="common-icon" icon={faAnglesRight} />
+              </button>
             </NavLink>
           </Col>
         </Row>

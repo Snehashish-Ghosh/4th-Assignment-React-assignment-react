@@ -2,6 +2,9 @@ import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import { useEffect, useState } from "react";
 import "./Banner.css";
+import { faAnglesDown } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { NavLink } from "react-router-dom";
 
 const Banner = () => {
   const [banner, setBanner] = useState([]);
@@ -19,7 +22,15 @@ const Banner = () => {
             <Carousel.Caption>
               <h2>{item.heading}</h2>
               <p>{item.text}</p>
-              <button className="theme-button">{item.buttontext}</button>
+              <NavLink to="/service" className="nav-link">
+                <button className="theme-button">{item.buttontext}</button>
+              </NavLink>
+              <div className="arrow-icon">
+                <FontAwesomeIcon
+                  className="arrow-icon mt-2 "
+                  icon={faAnglesDown}
+                />
+              </div>
             </Carousel.Caption>
           </Carousel.Item>
         ))}

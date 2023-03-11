@@ -10,6 +10,7 @@ import { useSignInWithEmailAndPassword } from "react-firebase-hooks/auth";
 import { useState } from "react";
 import auth from "../../firebase.init";
 import { NavLink } from "react-router-dom";
+import userPng from "../../images/user.png";
 
 const Login = () => {
   const [email, setEmail] = useState("");
@@ -35,6 +36,7 @@ const Login = () => {
       <Container>
         <SectionHeading heading="Login Now" />
         <div className="reg-area py-5">
+          <img src={userPng} alt="#" />
           <Row>
             <Col lg={{ span: 6, offset: 3 }}>
               <Form.Group className="mb-3" controlId="formBasicEmail">

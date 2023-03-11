@@ -11,7 +11,9 @@
 .theme-button:hover {
   background: #0958d6 !important;
 }
-
+.common-icon {
+  margin-left: 6px;
+}
 /* Breakpoint Css */
 @media (max-width: 991px) {
   .theme-button {

@@ -4,6 +4,8 @@ import Col from "react-bootstrap/esm/Col";
 import Button from "react-bootstrap/Button";
 import emailjs from "emailjs-com";
 import { useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faTelegram } from "@fortawesome/free-brands-svg-icons";
 
 const ContactText = () => {
   const [errorMessage, setErrorMessage] = useState("");
@@ -70,6 +72,7 @@ const ContactText = () => {
             value="Send"
           >
             Submit
+            <FontAwesomeIcon className="common-icon" icon={faTelegram} />
           </Button>
         </form>
       </div>

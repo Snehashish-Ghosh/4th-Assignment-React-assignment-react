@@ -8,6 +8,9 @@ import { Link, NavLink } from "react-router-dom";
 import auth from "../../firebase.init";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { signOut } from "firebase/auth";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faUser } from "@fortawesome/free-regular-svg-icons";
+import { faPowerOff } from "@fortawesome/free-solid-svg-icons";
 
 const Header = () => {
   const [user] = useAuthState(auth);
@@ -43,10 +46,12 @@ const Header = () => {
                   onClick={handleLogOut}
                 >
                   Log Out
+                  <FontAwesomeIcon className="common-icon" icon={faPowerOff} />
                 </NavLink>
               ) : (
                 <NavLink to="/login" className="nav-link theme-button">
                   Login
+                  <FontAwesomeIcon className="common-icon" icon={faUser} />
                 </NavLink>
               )}
             </Nav>

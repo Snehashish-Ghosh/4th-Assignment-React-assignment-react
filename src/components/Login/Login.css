@@ -2,6 +2,10 @@
   padding: 100px 0;
   font-family: "Open Sans", sans-serif;
   min-height: calc(100vh - 159px);
+  position: relative;
+}
+.reg-area img {
+  margin-top: -65px;
 }
 .login-area h2 {
   margin-bottom: 0;
