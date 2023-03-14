@@ -2,8 +2,6 @@ import React from "react";
 import Button from "react-bootstrap/Button";
 import { useSignInWithGoogle } from "react-firebase-hooks/auth";
 import auth from "../../firebase.init";
-import googleImg from "../../images/google.png";
-import "./GoogleSignUp.css";
 
 const GoogleSignUp = () => {
   const [signInWithGoogle, user, loading, error] = useSignInWithGoogle(auth);
@@ -25,13 +23,12 @@ const GoogleSignUp = () => {
     );
   }
   return (
-    <div className="googleSignUp">
+    <div className="google-signUp">
       <Button
-        className="mt-3 w-100 theme-button"
+        className="mt-3 w-100 theme-button google-image"
         onClick={() => signInWithGoogle()}
         type="submit"
       >
-        <img src={googleImg} alt="" />
         Continue With Google
       </Button>
     </div>

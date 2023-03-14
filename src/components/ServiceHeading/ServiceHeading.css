@@ -1,6 +1,7 @@
 .demo-service-area {
   padding: 100px 0;
   font-family: "Open Sans", sans-serif;
+  background-color: #f1f8ff;
 }
 .ServiceHeading-Image img {
   margin-top: 100px;
@@ -10,11 +11,23 @@
 .ServiceHeading-text h1 {
   margin-top: 100px;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 25px;
   margin-bottom: 20px;
 }
 .ServiceHeading-text p {
-  font-size: 16px;
+  font-size: 18px;
+  margin: 40px 0;
+}
+@media (max-width: 1025px) {
+  .ServiceHeading-text h1 {
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .ServiceHeading-text p {
+    font-size: 16px;
+    margin: 30px 0;
+  }
 }
 @media (max-width: 991px) {
   .demo-service-area {
@@ -26,11 +39,12 @@
   }
   .ServiceHeading-text h1 {
     margin-top: 50px;
-    font-size: 15px;
+    font-size: 16px;
     margin-bottom: 20px;
   }
   .ServiceHeading-text p {
-    font-size: 12px;
+    font-size: 14px;
     padding: 2px;
+    margin: 0;
   }
 }

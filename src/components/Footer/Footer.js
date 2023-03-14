@@ -41,7 +41,7 @@ const Footer = () => {
                 </h2>
                 <h2>
                   <span>Factory Two :</span> M/s Lucky Stone Crusher, Mamar
-                  Dukan, Jaflong, Gowainghat, Sylhet, Bangladesh
+                  Dukan, Jaflong, Sylhet, Bangladesh
                 </h2>
               </div>
             </Col>
@@ -49,25 +49,29 @@ const Footer = () => {
               <div className="footer-heading text-center">
                 <h1>Reach us</h1>
               </div>
-              <div className="d-flex customize-contact">
-                <FontAwesomeIcon className="icon-area" icon={faEnvelope} />
-                <a href="mailto:Msluckyenterprise@gmail.com">
-                  {" "}
-                  Msluckyenterprise@gmail.com
-                </a>
-                <FontAwesomeIcon className="icon-area ms-3" icon={faPhone} />
-                <a href="tel:+8801722894411">+8801713801044</a>
-              </div>
-              <div className="social-link">
-                <a href="https://www.facebook.com/Shuvo.ielu/" target="blank">
-                  <FontAwesomeIcon className="icon-area" icon={faFacebook} />
-                </a>
-                <a href="https://wa.me/+8801713801044" target="blank">
-                  <FontAwesomeIcon className="icon-area" icon={faWhatsapp} />
-                </a>
-                <a href="https://www.linkedin.com" target="blank">
-                  <FontAwesomeIcon className="icon-area" icon={faLinkedin} />
-                </a>
+              <div className="ps-lg-5">
+                <div className="customize-contact">
+                  <FontAwesomeIcon className="icon-area" icon={faEnvelope} />
+                  <a href="mailto:Msluckyenterprise@gmail.com">
+                    {" "}
+                    Msluckyenterprise@gmail.com
+                  </a>
+                </div>
+                <div className="customize-contact">
+                  <FontAwesomeIcon className="icon-area ms-3" icon={faPhone} />
+                  <a href="tel:+8801722894411">+8801713801044</a>
+                </div>
+                <div className="social-link">
+                  <a href="https://www.facebook.com/Shuvo.ielu/" target="blank">
+                    <FontAwesomeIcon className="icon-area" icon={faFacebook} />
+                  </a>
+                  <a href="https://wa.me/+8801713801044" target="blank">
+                    <FontAwesomeIcon className="icon-area" icon={faWhatsapp} />
+                  </a>
+                  <a href="https://www.linkedin.com" target="blank">
+                    <FontAwesomeIcon className="icon-area" icon={faLinkedin} />
+                  </a>
+                </div>
               </div>
             </Col>
           </Row>

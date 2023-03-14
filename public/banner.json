@@ -1,10 +1,10 @@
 [
   {
     "id": "1",
-    "heading": "Stone Crusher Industry",
-    "text": "Crushing Stones for Construction",
+    "heading": "Heavy Hire",
+    "text": "Renting Heavy Equipment for Your Projects",
     "buttontext": "Read More",
-    "img": "https://iili.io/HXHigdQ.jpg"
+    "img": "https://iili.io/HXHir7V.jpg"
   },
   {
     "id": "2",
@@ -13,12 +13,13 @@
     "buttontext": "Read More",
     "img": "https://iili.io/HXHi4kB.jpg"
   },
+
   {
     "id": "3",
-    "heading": "Heavy Hire",
-    "text": "Renting Heavy Equipment for Your Projects",
+    "heading": "Stone Crusher Industry",
+    "text": "Crushing Stones for Construction",
     "buttontext": "Read More",
-    "img": "https://iili.io/HXHir7V.jpg"
+    "img": "https://iili.io/HXHigdQ.jpg"
   },
   {
     "id": "4",

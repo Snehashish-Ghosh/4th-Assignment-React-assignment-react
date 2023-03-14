@@ -25,16 +25,10 @@ const ServiceHeading = () => {
               <h1>Complete Construction Solutions</h1>
               <p>
                 Lucky Enterprise has been a trusted provider of construction
-                materials since 1990. We offer a wide range of products,
-                including crushed stone of all sizes, high-quality limestone,
-                and other aggregates. In addition, we specialize in the import
-                and export of construction materials, ensuring that you have
-                access to the best products from around the world. Our heavy
-                earthmoving equipment rental service allows you to get the job
-                done efficiently, and our truck rental service provides you with
-                a reliable way to transport materials. Whether you are a
-                contractor, builder, or homeowner, you can count on Lucky
-                Enterprise to meet all of your construction needs.
+                materials since 1990. We are providing construction materials,
+                including crushed stone, high-quality limestone, and aggregates.
+                We also offer heavy earthmoving and truck rental services for
+                efficient construction work.
               </p>
             </div>
             <NavLink to="/service" className="nav-link">

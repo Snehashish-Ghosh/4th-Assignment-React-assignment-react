@@ -19,7 +19,7 @@ const Header = () => {
   };
   return (
     <header>
-      <Navbar expand="lg" className="header-area py-lg-1 fixed-top bg-light">
+      <Navbar expand="lg" className="header-area py-lg-1 fixed-top">
         <Container>
           <Navbar.Brand as={Link} to="/">
             <Logo />

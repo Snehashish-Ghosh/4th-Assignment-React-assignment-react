@@ -1,9 +1,10 @@
 .about-area {
   padding: 140px 0;
-  background-image: url(../../images/bganother.PNG);
+  /* background-image: url(../../images/bganother.PNG);
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
+  background-color: #f1f8ff;
   font-family: "Open Sans", sans-serif;
 }
 @media (max-width: 991px) {

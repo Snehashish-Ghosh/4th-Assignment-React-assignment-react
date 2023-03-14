@@ -5,7 +5,7 @@ import "./AboutText.css";
 const AboutText = () => {
   return (
     <Col lg={6}>
-      <div className="text-center about-text p-5">
+      <div className="about-text p-5">
         <h1>Building a Solid Foundation with Lucky Enterprise</h1>
         <p>
           Our stone crusher factory and heavy transportation company established

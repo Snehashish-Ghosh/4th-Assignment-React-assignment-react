@@ -1,34 +1,33 @@
 .logo-area {
   font-family: "Berkshire Swash", cursive;
+  font-weight: 400;
   position: relative;
 }
 .logo-area::after {
   position: absolute;
   content: "Lucky Enterprise";
   color: black;
-  font-weight: 400;
-  font-size: 22px;
-  top: 3px;
-  right: -150px;
+  font-size: 16px;
+  top: 15px;
+  right: -108px;
 }
 .logo-area::before {
   position: absolute;
   content: "Foundation of Innovation";
   color: black;
-  font-weight: 400;
-  font-size: 15px;
+  font-size: 12px;
   left: 93px;
   bottom: 2px;
 }
 @media (max-width: 991px) {
   .logo-area::after {
-    font-size: 18px;
-    top: 6px;
-    right: -118px;
+    font-size: 14px;
+    top: 19px;
+    right: -95px;
   }
   .logo-area::before {
-    font-size: 13px;
-    left: 100px;
-    bottom: 7px;
+    font-size: 12px;
+    left: 88px;
+    bottom: 2px;
   }
 }

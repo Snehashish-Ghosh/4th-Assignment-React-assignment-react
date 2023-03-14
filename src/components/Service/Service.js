@@ -17,7 +17,7 @@ const Service = () => {
     <section className="service-area">
       <Container>
         <SectionHeading heading="Services" />
-        <Row>
+        <Row className="mt-5">
           {services.map((item) => (
             <SingleService key={item.id} item={item}></SingleService>
           ))}
